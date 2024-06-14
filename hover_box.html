@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: space-evenly;
+            margin: auto;
+            width: 80%;
+        }
+        .container .course{
+            width: 24%;
+            height: 300px;
+            padding: 0px;
+            margin: 0px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            position: relative;
+        }
+        .course .Overlay_box{
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            color: white;
+            display: none;
+            background-color: rgba(0, 0, 0, 0.9);
+            position: absolute;
+        }
+        .course:hover .Overlay_box{
+            display: block;
+        }
+        h3{
+            background-image: linear-gradient(to  right, rgb(182,97,221), rgb(241,153,177));
+            padding: 30px;
+            margin: 0px;
+            color: white;
+        }
+        h4{
+            padding: 20px;
+            font-size: 18px;
+            font-weight: normal;
+        }
+        p{
+            font-size: 13px;
+            font-style: italic;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        h5{
+            margin-left: 20px;
+            margin-top: 5px;
+            font-size: 17px;
+        }
+        li{
+            margin-left: 20px;
+            font-size: 13px;
+        }
+        button{
+            margin-top: 30px;
+            margin-left: 25px;
+            height: 40px;
+            width: 200px;
+            color: white;
+            background-color: rgba(0, 0, 0,0.9);
+            border: 1px solid white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="course">
+            <h3>Prompt Engineering Course</h3>
+            <h4>Prompt Engineering Course</h4>
+            <div class="Overlay_box">
+                <p>Next barch</p>
+                <h5>In 2 days-8th june</h5>
+                <p>What will I learn</p>
+                <li>Generative AI and its industry Appli..</li>
+                <li>NLP and Deep Learning</li>
+                <li>Autoencoders and GANs</li>
+                <button>View details</button>
+            </div>
+        </div>
+
+
+        <div class="course">
+            <h3>MLOps Certification Course Online</h3>
+            <h4>MLOps Certification Course Online</h4>
+            <div class="Overlay_box">
+                <p>Next barch</p>
+                <h5>In 23 days- 29th june</h5>
+                <p>What will I learn</p>
+                <li>MLOps Essential</li>
+                <li>Version Control System</li>
+                <li>Packaging ML Model</li>
+                <button>View details</button>
+            </div>
+        </div>
+
+
+        <div class="course">
+            <h3>CISSP Certification Training Course</h3>
+            <h4>CISSP Certification Training Course</h4>
+            <div class="Overlay_box">
+                <p>Next barch</p>
+                <h5>In 2days- 8th june</h5>
+                <button>View details</button>
+            </div>
+        </div>
+
+
+        <div class="course">
+            <h3>Microsoft Power BI Plus:Certified by PwC</h3>
+            <h4>Microsoft Power BI Plus:Certified by PwC</h4>
+            <div class="Overlay_box">
+                <p>Next barch</p>
+                <h5>In 23days- 29th june</h5>
+                <button>View details</button></div>
+        </div>
+    </div>
+</body>
+</html>
